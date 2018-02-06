@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>Curriculum Vitae | Educación</title>
+  </head>
+  <body>
+    <header>
+      <svg width="150px" height="150px" viewbox="0 0 150 150">
+        <image width="150px" height="150px" xlink:href="img/logo.svg"></image>
+      </svg>
+      <h1>Curriculum Vitae</h1>
+    </header>
+    <form name="Datos Personales">
+      <fieldset>
+        <legend>Datos Personales</legend>
+        <h2><strong>Nombre(s): </strong><em>Jesus Antonio</em></h2>
+        <h2><strong>Apellido(s): </strong><em>Zavala Armenta</em></h2>
+        <h3><strong>Lugar de Nacimiento: </strong><em>Nogales, Sonora, México,</em></h3>
+        <h3><strong>Fecha de Nacimiento: </strong><em>17 de Enero de 1992</em></h3>
+      </fieldset>
+    </form>
+    <nav>
+      <a href="index.html">Inicio</a> |
+      <a href="educacion.html">Educación</a> |
+      <a href="experiencia.html">Experiencia</a>
+    </nav>
+    <section>
+      <article>
+        <h2>Educacion</h2>
+        <table border="1" cellpadding="10" cellspacing="0">
+          <thead>
+            <th>Año</th>
+            <th>Institución</th>
+            <th>Lugar</th>
+            <th>¿Culminó?</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2016</td>
+              <td>Instituto Tecnológico de Nogales</td>
+              <td>Nogales, Sonora, México </td>
+              <td>Si</td>
+            </tr>
+            <tr>
+              <td>2010</td>
+              <td>CETis 128</td>
+              <td>Nogales, Sonora, México </td>
+              <td>Si</td>
+            </tr>
+            <tr>
+              <td>2007</td>
+              <td>Escuela Secundaria Técnica #3, Adolfo López Mateos</td>
+              <td>Nogales, Sonora, México </td>
+              <td>Si</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+    </section>
+    <section>
+      <article>
+        <form name="Agregar Estudios">
+          <fieldset>
+            <legend>Agregar Estudios</legend>
+            <p>
+              <label for="anio"><strong>Año:</strong></label>
+              <select id="anio" name="anio">
+                <option value="2018">2018</option>
+                <option value="2017">2017</option>
+                <option value="2016">2016</option>
+                <option value="2015">2015</option>
+                <option value="2014">2014</option>
+                <option value="2013">2013</option>
+                <option value="2012">2012</option>
+                <option value="2011">2011</option>
+                <option value="2010">2010</option>
+              </select>
+            </p>
+            <p>
+              <label for="institucion"><strong>Institucion:</strong></label>
+              <input type="text" name="institucion" maxlength="100" required>
+            </p>
+            <p>
+              <label for="lugar"><strong>Lugar:</strong></label>
+              <textarea name="lugar" rows="5" cols="20" required></textarea>
+            </p>
+            <p>
+              <label for="culmino"><strong>¿Culminó?</strong></label>
+              <input id="si" type="radio" name="culmino" value="Si" required>
+              <label for="si"><strong>Sí</strong></label>
+              <input id="no" type="radio" name="culmino" value="No" required>
+              <label for="no"><strong>Nó</strong></label>
+            </p>
+            <p>
+              <input type="submit" name="enviar" value="Enviar">
+            </p>
+          </fieldset>
+        </form>
+      </article>
+    </section>
+    <footer>
+      <p>&copy Derechos Reservados Jesus Zavala</p>
+      <ul>
+        <li><strong>Correo Electrónico: </strong><em><a href="mailto:jaza1992@live.com.mx?subject=feedback">jaza199@live.com.mx</a></em></li>
+        <li><strong>Telefono: </strong><em>+52 1(631) 299-5406</em></li>
+        <li><strong>Facebook: </strong><em><a href="https://www.facebook.com/Jesus-Zavala-Imagine-360682307469919/" target="_blank">Jesus Zavala - Imagine</a></em></li>
+      </ul>
+    </footer>
+  </body>
+</html>
